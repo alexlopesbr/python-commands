@@ -1,0 +1,14 @@
+comandos python
+python3 -m venv myenv			-> cria um virtual env
+source myenv/bin/activate		-> ativa a virtual env
+pip3 install django			-> instala o djando
+pip3 install djangorestframework	-> instala o djangorestframework
+django-admin startproject proj_teste	-> cria um novo projeto
+
+python manage.py startapp nome_aqui	-> cria um novo app 
+python manage.py createsuperuser	-> registra um admin
+python manage.py runserver   		-> roda o server
+python manage.py makemigrations
+python manage.py migrate
+
+pip freeze				-> vizualiza as dependencias do projeto
